@@ -1,0 +1,24 @@
+# Virtual Environments (Bỏ qua mọi thư mục chứa venv)
+.venv*/
+venv*/
+*venv*/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor Settings
+.vscode/
+.idea/
+.DS_Store
+desktop.ini
+
+# Heavy Artifacts / Project Caches & Weights
+proj/cache/
+data/
+debug_audio/
+proj/weight/
+*.pkl
+*.joblib
